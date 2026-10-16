@@ -542,6 +542,52 @@ table.lic{width:100%;border-collapse:collapse;background:#fff;border-radius:var(
   .nav-links{display:none}
 }
 @media (prefers-reduced-motion:reduce){.hero-bg{animation:none}.reveal{opacity:1;transform:none;transition:none}}
+
+/* MOBILE */
+@media (max-width:900px){
+  .nav-in{height:auto;flex-direction:column;align-items:flex-start;gap:6px;padding:8px 16px}
+  .nav-links{display:flex!important;width:100%;overflow-x:auto;gap:2px;padding-bottom:4px}
+  .nav-links a{font-size:12px;padding:5px 8px}
+  section.s,.chap{scroll-margin-top:100px}
+  .cq,.app-body,.box{overflow-x:auto}
+  table.lic{display:block;overflow-x:auto;white-space:nowrap}
+  .prop{grid-template-columns:1fr}
+}
+@media (max-width:640px){
+  .wrap{padding:0 16px}
+  section.s{padding:56px 0}
+  .hero-in{padding:48px 16px}
+  .hero-logos{padding:8px 12px;gap:10px;margin-bottom:22px}
+  .hero-logos .logo-int{height:30px!important}.hero-logos .logo-sf{height:30px}
+  .hero-stats{grid-template-columns:1fr;gap:12px;margin-top:32px}
+  .cta .btn{width:100%;justify-content:center}
+  h2.t{font-size:1.6rem}
+  .ag-grid{grid-template-columns:1fr}
+  .chap span{font-size:1.8rem}.chap b{font-size:1.1rem}
+  .q-grid,.int-grid,.st-grid,.ob-grid{grid-template-columns:1fr}
+  .kpis,.kpis5{grid-template-columns:1fr 1fr}
+  .k b{font-size:1.15rem}
+  .demo{gap:14px}
+  .side .co{font-size:13px}
+  .js{flex-direction:row;overflow-x:auto;padding-bottom:6px}
+  .js-step{min-width:210px}
+  .jp{padding:18px}
+  .jp-head h3{font-size:1.15rem}
+  .steps,.steps.s5{grid-template-columns:1fr}
+  .phases{grid-template-columns:1fr}
+  .ph{grid-template-columns:56px 1fr}.ph .pct{width:56px;height:56px;font-size:1.05rem}
+  .save .num{font-size:2rem}
+  .mx-grid{grid-template-columns:1fr}
+  .al-mid{min-height:280px}
+  .g2-top{flex-direction:column;align-items:flex-start}
+  .road{gap:28px}
+  .rd-l{width:52px;height:52px;font-size:1.4rem;margin:-40px 0 10px}
+  .req{grid-template-columns:1fr}
+  .ct{font-size:11.5px}.ct th,.ct td{padding:5px 4px}
+  .op{grid-template-columns:110px 1fr 36px}
+  .kanban{grid-template-columns:repeat(5,minmax(160px,1fr))}
+  footer .wrap{flex-direction:column;align-items:flex-start}
+}
 </style>
 </head>
 <body>
